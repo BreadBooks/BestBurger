@@ -8,6 +8,12 @@ burger.all(function (burgerData) {
 });
 });
 
+// router.get("/burgers", function (req, res) {
+//     burger.all(function (burgerData) {
+//         res.render("index", { burger_data: burgerData });
+//     });
+// });
+
 router.post("/burgers/create", function (req, res) {
     if (!req.body.burger_name) {
         return res.status(422).json();
