@@ -20,3 +20,13 @@ app.listen(PORT, function () {
     console.log("Listening on port:%s", PORT);
 });
 
+var connectionString = "postgres://*USERNAME*:*PASSWORD*@*HOST*:*PORT*/*DATABASE*"
+
+var pg = require('pg');
+pg.connect(connectionString, function(err, client, done) {
+   client.query('SELECT * FROM your_table', function(err, result) {
+      done();
+      if(err) return console.error(err);
+      console.log(result.rows);
+   });
+});
