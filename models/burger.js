@@ -1,4 +1,4 @@
-var orm = require("../config/orm");
+var orm = require("../config/");
 
 var burger = {
     all: function (cb) {
@@ -18,7 +18,7 @@ var burger = {
         orm.update("burgers", {
             devoured: true
         }, condition, cb);
-    }
+    },
 };
 
 module.exports = burger;

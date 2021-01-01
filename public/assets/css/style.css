@@ -30,6 +30,7 @@ body {
 .container {
   background-color: rgba(171, 214, 228, 0.774);
   font-family: 'Rock Salt', cursive;
+  
 }
 
 .enter_section {
@@ -51,7 +52,6 @@ body {
 .task {
   border-color: black;
   border-style: solid;
-  color: white;
   border-width: 3px;
 }
 
