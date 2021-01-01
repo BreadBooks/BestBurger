@@ -20,13 +20,13 @@ app.listen(process.env.PORT || 3000, function () {
     console.log("Listening on port:%s", PORT);
 });
 
-var connectionString = "postgres://*USERNAME*:*PASSWORD*@*HOST*:*PORT*/*DATABASE*"
+// var connectionString = "postgres://*USERNAME*:*PASSWORD*@*HOST*:*PORT*/*DATABASE*"
 
-var pg = require('pg');
-pg.connect(connectionString, function(err, client, done) {
-   client.query('SELECT * FROM burgers', function(err, result) {
-      done();
-      if(err) return console.error(err);
-      console.log(result.rows);
-   });
-});
+// var pg = require('pg');
+// pg.connect(connectionString, function(err, client, done) {
+//    client.query('SELECT * FROM burgers', function(err, result) {
+//       done();
+//       if(err) return console.error(err);
+//       console.log(result.rows);
+//    });
+// });
