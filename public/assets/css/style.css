@@ -4,17 +4,20 @@ body {
   background-image: url("../images/burger.jpg");
   background-color: #fc6;
   color: white;
-  text-shadow: 1px 2px maroon;
+  text-shadow: 1px 2px 2px maroon;
+  font-family: 'Roboto Mono', monospace;
 }
 
 #top-bar {
   margin-top: 28px;
+  
 }
 
 .spacing-reset {
   padding: 0;
   margin: 0;
   border: 0;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .list-reset {
@@ -24,16 +27,9 @@ body {
   border: 0;
 }
 
-@media (min-width: 1200px) {
-  .container {
-    width: 990px;
-  }
-}
-
-@media (min-width: 992px) {
-  .container {
-    width: 990px;
-  }
+.container {
+  background-color: rgba(171, 214, 228, 0.774);
+  font-family: 'Rock Salt', cursive;
 }
 
 .enter_section {
@@ -49,16 +45,19 @@ body {
   padding-bottom: 10px;
   margin: auto;
   font-size: 38px;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .task {
   border-color: black;
   border-style: solid;
+  color: white;
   border-width: 3px;
 }
 
 .button-size {
   padding-bottom: 20px;
+  
 }
 
 #text-enter-button {
@@ -71,5 +70,6 @@ p {
 }
 
 .jumbotron {
-  background-color: lightblue
+  background-color: lightblue;
+  font-family: 'Rock Salt', cursive;
 }
