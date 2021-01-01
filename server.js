@@ -1,5 +1,5 @@
 var express = require("express");
-var PORT = process.env.PORT || 8000;
+var PORT = process.env.PORT || 3000;
 var app = express();
 
 app.use(express.static("public"));
@@ -16,7 +16,7 @@ var routes = require("./controllers/burgersController.js");
 
 app.use(routes);
 
-app.listen(PORT, function () {
+app.listen(process.env.PORT || 3000, function () {
     console.log("Listening on port:%s", PORT);
 });
 
