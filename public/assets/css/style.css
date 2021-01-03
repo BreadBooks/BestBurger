@@ -75,6 +75,10 @@ p {
 }
 
 .footer {
+  margin-top: 25px;
+  margin-bottom: none;
   text-shadow: none;
   font-family: 'Roboto Mono', monospace;
+  background-color: rgba(141, 151, 155, 0.952) !important;
+  text-shadow: 1px 2px 2px pink;
 }
