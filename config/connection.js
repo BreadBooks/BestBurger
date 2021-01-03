@@ -1,5 +1,5 @@
 var mysql = require("mysql");
-const connection = require("../../UTA-AUS-FSF-PT-07-2020-U-C-MW/13-MVC/02-Homework/Main/BurgerSolution/config/connection.js");
+
 // const { connect } = require("../controllers/burgersController.js");
 
 if (process.env.JAWSDB_URL) {
@@ -9,7 +9,7 @@ if (process.env.JAWSDB_URL) {
     host: "localhost",
     port: 3306,
     user: "root",
-    password: "beep",
+    password: "root",
     database: "burgers_db"
   });
 }
