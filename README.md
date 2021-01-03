@@ -4,7 +4,7 @@
 ## Description
  A Node Express Handlebars application that uses a mySQL database to store and add various burgers to be devoured! A JawsDB connection was needed to deploy our mySQL database to heroku. You can check out the Best Burger application [here.](https://breadbooks-best-burger.herokuapp.com/)
 
-![Preview](/assets/images/Preview1.png)
+![Preview](/public/assets/images/Preview1.png)
 
 
 ## Table of Contents
